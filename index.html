@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор ИМТ</title>
+    <link rel="shorcut icon" href="images/calc.jpg" type="images/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name = "theme-color" content= "139cdf">
+    <link rel="icon" href="images/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-192x192.png">
+    <meta name = "apple-mobile-web-app-status-bar" content="#139cdf">
+
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/calc.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Bootstrap
+          </a>
+        </div>
+      </nav>
+    <div class="container" style="max-width: 200px;">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ваш рост</label>
+            <input type="text" class="form-control" id="height_input" aria-describedby="height_help">
+            <div id="emailHelp" class="form-text">Рост в метрах</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ваш вес</label>
+            <input type="text" class="form-control" id="weight_input" aria-describedby="weight_help">
+            <div id="emailHelp" class="form-text">Вес в килограммах</div>
+          </div>
+         
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Ваш ИМТ</label>
+            <input type="text" class="form-control" id="output">
+            <div id="emailHelp" class="form-text">ИМТ на вывод</div>
+          </div>
+          <button id="btn" type="submit" class="btn btn-primary">Рассчитать</button>
+    </div>
+    <script src="main.js"></script>
+
+    <script src="js/bootstrap.bundle.js" ></script> 
+</body>
+
+</html>
