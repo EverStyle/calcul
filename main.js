@@ -1,4 +1,4 @@
-function NotificationEmt(emt){
+function NotificationEmt(res){
 const option = {body:'Чел ты не качок, худей',icon : 'images/calc.jpg'}
 new Notification('Заголовок ГЫГЫ',option)
 
@@ -24,11 +24,11 @@ const weight_elem=document.getElementById('weight_input')
         setInterval(()=>{
             Notification.requestPermission().then((result)=>{
                 if (result === 'granted'){
-                    NotificationEmt(emt)
+                    NotificationEmt(res)
                 }
             })
         },10000);
-        
+
     })
 })
 
