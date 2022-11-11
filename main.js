@@ -1,4 +1,5 @@
 function NotificationEmt(res){
+    console.log('fdsf')
 const option = {body:'Чел ты не качок, худей',icon : 'images/calc.jpg'}
 new Notification('Заголовок ГЫГЫ',option)
 
@@ -23,7 +24,7 @@ const weight_elem=document.getElementById('weight_input')
 
         setInterval(()=>{
             Notification.requestPermission().then((result)=>{
-                if (result === 'granted'){
+                if (result == 'granted'){
                     NotificationEmt(res)
                 }
             })
