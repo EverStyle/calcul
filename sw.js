@@ -1,13 +1,13 @@
 
 const staticAssets = [
-    './',
-    './index.html',
-    './images/calc.jpg',
-    './images/icons/icon-128-128.png',
-    './images/icons/icon-192-192.png',
-    './css/bootstrap.min.css',
-    './js/bootstrap.bundle.min.js',
-    './main.js'
+    '.',
+    'index.html',
+    'images/calc.jpg',
+    'images/icons/icon-128x128.png',
+    'images/icons/icon-192x192.png',
+    'css/bootstrap.min.css',
+    'js/bootstrap.bundle.min.js',
+    'main.js'
 ]
 
 const staticCacheName = 'site-static-v1'
