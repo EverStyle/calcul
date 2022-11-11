@@ -10,7 +10,7 @@ const staticAssets = [
     'main.js'
 ]
 
-const staticCacheName = 'site-static-v1'
+const staticCacheName = 'site-static-v2'
 
 
 self.addEventListener('install',async evt=>{
